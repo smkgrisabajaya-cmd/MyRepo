@@ -8,7 +8,6 @@ body{
     padding: 0;
     margin: 0;
     background-color: #1A2A3A;
-
 }
 
 nav{
@@ -20,7 +19,7 @@ nav{
 margin-left: 60px;
 }
 
-ul{
+.topNav{
     list-style: none;
     display: flex;
     align-items: center;
@@ -68,14 +67,13 @@ a:hover{
     position: absolute;
     bottom: 100px;
     left: 5px;
-    width: 110px;
-    height: 60px;
+    width: 130px;
+    height: 70px;
     border-radius:30px;
     background-color: #A8E6CF;
     border: none;
     color: black;
-    font-weight: bolder;
-    letter-spacing: 1px;
+    font-weight: bold;
     transition: 0.3s;
 }
 
@@ -83,7 +81,6 @@ a:hover{
     transform:scale(1.1)
 }
 
-@media(max-width:1999px){
 .mainCard{
  display: flex;
  gap: 70px;
@@ -154,18 +151,70 @@ li{
     color:#1A2A3A;
 }
 
-.btnDown{
-    margin-top: 37px;
+
+
+.container-denah{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80dvh;
+    width: 100%;
+    max-width: 800px;
+    margin: 40px auto;
 }
 
+.imgHome{
+    width: 100%;
+    max-width: 750px;
 }
 
+.card-metric {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    width: 100%;
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
 
+.subcard-metric{
+    background: rgba(255, 255, 255, 0.05); 
+    backdrop-filter: blur(10px);          
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(0, 255, 200, 0.2); 
+    border-radius: 12px;                     
+    padding: 18px 20px;
+    display: flex;
+    align-items: center;
+    gap: 16px;                              
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+}
 
+.card-info h4 {
+    color: #a0aec0;
+    font-size: 13px;
+    font-weight: 500;
+    margin: 0 0 4px 0;
+}
 
+.card-info p {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+}
 
-
-
+.card-icon {
+    width: 42px;
+    height: 42px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
 
 
 
